@@ -15,7 +15,7 @@ public class TournamentTests {
         Assert.assertArrayEquals(expResult, result);
     }
 
-    @Test
+   @Test
     public void test_MultipleSets_MultipleGames() {
         int[][] scorecard = {{1, 3, 5, 2},
                 {5, 3, 4, 4},
